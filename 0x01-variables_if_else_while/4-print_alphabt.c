@@ -1,49 +1,40 @@
-#include <stdio.h>
+include <stdio.h>                                                                                                                                                                                                                              
+
+/**                                                                                                                                                                                                                                             
+
+ *main - Entry point                                                                                                                                                                                                                            
+
+ *                                                                                                                                                                                                                                              
+
+ * Return: Always 0 (Success/correct)
+
+ */
 
 int main(void)
-{
-    char ch = 'a';
-	while(ch <= 'z')
-	{
-		if (ch != 'e' && ch != 'q')
-		{
-			putchar(ch);
-		}
-		ch++;
-	}
-	putchar('\n');
 
-    return 0;
+{
+
+char alphabet ;
+
+for (alphabet = ‘a’ ; alphabet <= ‘z’ ; alphabet++)
+
+{
+
+if (alphabet == ‘q’)
+
+continue ;
+
+else if (alphabet == q’)
+
+continue;
+
+putchar(alphabet) ;
+
 }
 
-#include <stdio.h>
+Putchar (‘\n’) ;
 
-int main(void)
-{
-    
-	for (char ch = 'a'; ch <= 'z'; ch++)
-	{
-		if (ch != 'e' && ch != 'q')
-		{
-			putchar(ch);
-		}
-	}
-	putchar('\n');
+Return (0) ;
 
-    return 0;
 }
 
-int main(void)
-{
-    
-	for (char ch ='a'; ch <= 'z'; ch++)
-	{
-		if (ch == 'e' || ch == 'q')
-		    ch++;
-		putchar(ch);
-		
-	}
-	putchar('\n');
-
-    return 0;
-}
